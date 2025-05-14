@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "34fdcd66-7e19-4946-b2fc-e68c8e7f5073",
+		"name": "FastAPI Excel Processor Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32483475"
+	},
+	"item": [
+		{
+			"name": "list_tables",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/list_tables",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"list_tables"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_table_details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/get_table_details?table_name=Initial Investment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"get_table_details"
+					],
+					"query": [
+						{
+							"key": "table_name",
+							"value": "Initial Investment"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "row_sum",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/row_sum?table_name=Initial Investment&row_name=Tax Credit (if any )=",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"row_sum"
+					],
+					"query": [
+						{
+							"key": "table_name",
+							"value": "Initial Investment"
+						},
+						{
+							"key": "row_name",
+							"value": "Tax Credit (if any )="
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
