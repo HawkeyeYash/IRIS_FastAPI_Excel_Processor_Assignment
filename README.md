@@ -12,6 +12,7 @@
  6) Wait for the parsing job to be completed and application to start. Click on the provided link (localhost) and route to docs to use swagger based api service of FastAPI.
     You will find all 3 endpoints to test the application.
     You can also use postman collection provided in the repository to test the api with Postman.
+    For better results OpenAI models can also be used.
 
 ## Project Demo Video:
 #### Find video demonstration of project here - https://drive.google.com/file/d/1oC3ou2S8smBC3MvPcZWkdIGu08e2WgMP/view?usp=sharing
