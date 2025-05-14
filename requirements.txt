@@ -1,0 +1,7 @@
+llama-index
+fastapi
+python-dotenv
+llama-index-llms-groq
+llama-index-embeddings-huggingface
+uvicorn
+llama-cloud-services
