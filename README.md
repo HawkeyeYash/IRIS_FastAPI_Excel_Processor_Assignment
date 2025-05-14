@@ -14,5 +14,7 @@
     You can also use postman collection provided in the repository to test the api with Postman.
     For better results OpenAI models can also be used.
 
+    NOTE - If you find any error in running, then you can use test.ipynb jupyter notebook also.
+
 ## Project Demo Video:
 #### Find video demonstration of project here - https://drive.google.com/file/d/1oC3ou2S8smBC3MvPcZWkdIGu08e2WgMP/view?usp=sharing
